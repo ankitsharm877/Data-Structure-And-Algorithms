@@ -1,0 +1,23 @@
+Recursion : Any function which calls itself is called recursion.
+
+Recursive code is generally shorter and easier to rite than iterative code.
+
+//base case
+if(test for base case)
+	return some base case value
+else if (test for another base case)
+	return some other base case value
+
+//recursive case
+else
+	return (some work and then a recursive call)
+
+Example:
+1. Fibonacci Series, Factorial Finding
+2. Merge Sort, Quick Sort
+3. Binary Search
+4. Tree Traversals and many Tree Problems: InOrder, PreOrder and PostOrder
+5. Graph Traversals: DFS (Depth First Search) and BFS (Breadth First Search)
+6. Dynamic Programming Examples
+7. Divide and Conquer Algorithms
+8. Towers of Hanoi

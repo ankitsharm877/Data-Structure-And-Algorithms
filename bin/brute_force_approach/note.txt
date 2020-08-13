@@ -1,0 +1,17 @@
+The brute force method is by solving a particular problem by checking all the possible cases which is slow.
+
+For example, you are given a sorted numbers in an array and you have to find a specific value. The brute force method is to make a for loop and iterate through the elements of the array and eventually you will see the digit you are looking for, however there are trade off cases that in Computer Science we value.
+
+These are called worst case, best case, average case scenarios.
+
+The best case of a brute force method is if the element you are accessing is at the beginning or somewhere near since you’ll be able to find it immediately.
+
+The average case would be somewhere in the middle and the worst case would be if the digit you’re searching is at the last.
+
+Assume that there are 1 million digits given in the array.
+
+Sure, if you’ll search for the number 20 that’s fine, if you’ll search 1000 that’s manageable but if you’ll search 900,000 that’ll be a problem that relates to time complexity.
+
+In Computer Science, we have Two Golden Rules in developing a solution. First and foremost is correctness of an algorithm, (does it solve the problem) and second is efficiency. (is it fast as n approaches to million)
+
+Sure, Brute Force can solve the problem given above, but is it efficient? 

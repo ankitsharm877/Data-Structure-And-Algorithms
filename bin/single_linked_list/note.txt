@@ -1,0 +1,14 @@
+A Linked Lists is a data structure used for storing collections of data.
+
+The following operations make linked lists an ADT:
+	1. Insert: inserts an element into the list
+	2. Delete: removes and return specified position element from the list
+	3. Delete List: removes all elements of the list (disposes from list)
+	4. Count: returns the number of elements in the list
+	5. Find nth node from end of the list
+	
+A). Single Linked List :- This list consists of a number of nodes in which each node has a next pointer to the 
+following element. The list of the last node in the list is NULL, which indicates the end of the list.
+
+
+
