@@ -22,6 +22,7 @@ This project contains algorithms related to data structure and some computationa
   * Insert At End
   
 ## 3. Recursion
+  * Check array is sorted or not
+  * Tower of Hanoi
 ## 4. Brute Force approach
-## 5. Backtracking
-
+  * String matching
