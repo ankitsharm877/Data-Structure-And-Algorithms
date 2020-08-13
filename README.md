@@ -14,8 +14,8 @@ This project contains algorithms related to data structure and some computationa
   * Delete From Middle
   * Delete From nth Position
   
-2. Double Linked List
-3. Recursion
-4. Brute Force approach
-5. Backtracking
+## 2. Double Linked List
+## 3. Recursion
+## 4. Brute Force approach
+## 5. Backtracking
 
