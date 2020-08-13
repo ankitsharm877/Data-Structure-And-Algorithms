@@ -12,6 +12,9 @@ public class Test {
 		DNode nodeIB = InsertAtBeginning.insert(node,5);
 		PrintAllData.print(nodeIB);
 		
+		DNode nodeIE = InsertAtEnd.insert(nodeIB,8);
+		PrintAllData.print(nodeIE);
+		
 	
 	}
 
