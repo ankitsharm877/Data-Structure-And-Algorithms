@@ -15,6 +15,12 @@ This project contains algorithms related to data structure and some computationa
   * Delete From nth Position
   
 ## 2. Double Linked List
+  * Print all data
+  * Count length
+  * Create linked list
+  * Insert At Beginning
+  * Insert At End
+  
 ## 3. Recursion
 ## 4. Brute Force approach
 ## 5. Backtracking
