@@ -17,6 +17,8 @@ public class InsertAtEnd {
 		while(temp.next !=null) {
 			temp = temp.next;
 		}
+		temp.next = newNode;
+		newNode.prev = temp;
 		return head;
 	}
 }
