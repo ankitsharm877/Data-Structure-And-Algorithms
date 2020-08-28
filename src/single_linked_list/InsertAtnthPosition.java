@@ -12,7 +12,7 @@ public class InsertAtnthPosition {
 		newNode.next = null;
 		
 		if(head == null) {
-			head = newNode;
+			return head;
 		}else {
 			while(node != null && k < position) {
 				++k;

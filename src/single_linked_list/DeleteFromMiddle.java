@@ -8,7 +8,7 @@ public class DeleteFromMiddle {
 		Node node = head;
 		Node node2 = head.next.next;
 		
-		while(node2!= null) {
+		while(node2 != null && node2.next != null) {
 			node = node.next;
 			node2 = node2.next.next;
 		}

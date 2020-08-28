@@ -7,7 +7,7 @@ public class InsertAtMiddle {
 			Node node = head;
 			Node nodeNext = head.next.next;
 			
-			while(nodeNext!=null) {
+			while(nodeNext !=null && nodeNext.next != null) {
 				node = node.next;
 				nodeNext = nodeNext.next.next;
 			}
