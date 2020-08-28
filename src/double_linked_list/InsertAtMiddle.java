@@ -3,22 +3,22 @@ package double_linked_list;
 public class InsertAtMiddle {
 	
 	public static DNode insert(DNode head, int data){
-		DNode temp,tempD;
-		temp = head;
-		tempD = head.next.next;
-		while(tempD != null) {
-			temp = temp.next;
-			tempD = tempD.next.next;
+		DNode slow_node, fast_node;
+		slow_node = head;
+		fast_node = head.next.next;
+		while(fast_node != null && fast_node.next != null) {
+			slow_node = slow_node.next;
+			fast_node = fast_node.next.next;
 		}
 		DNode newNode = new DNode();
 		newNode.data = data;
 		newNode.next = null;
 		newNode.prev = null;
 		
-		temp.next.prev = newNode;
-		newNode.next = temp.next;
-		temp.next = newNode;
-		newNode.prev = temp;
+		slow_node.next.prev = newNode;
+		newNode.next = slow_node.next;
+		slow_node.next = newNode;
+		newNode.prev = slow_node;
 		
 		return head;
 	}

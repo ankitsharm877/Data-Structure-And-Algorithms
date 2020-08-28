@@ -18,6 +18,21 @@ public class Test {
 		DNode nodeIM = InsertAtMiddle.insert(nodeIE,6);
 		PrintAllData.print(nodeIM);
 		
+		DNode nodeIP = InsertAtnthPosition.insert(nodeIM,2,4);
+		PrintAllData.print(nodeIP);
+		
+		DNode nodeDB = DeleteFromBeginning.delete(nodeIP);
+		PrintAllData.print(nodeDB);
+		
+		DNode nodeDE = DeleteFromEnd.delete(nodeDB);
+		PrintAllData.print(nodeDE);
+		
+		DNode nodeDM = DeleteFromMiddle.delete(nodeDE);
+		PrintAllData.print(nodeDM);
+		
+		DNode nodeDN = DeleteFromnthPosition.delete(nodeDM, 1);
+		PrintAllData.print(nodeDN);
+		
 	
 	}
 
