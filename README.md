@@ -38,3 +38,5 @@ This project contains algorithms related to data structure and some computationa
   * Create linked list
   * Insert At Beginning
   * Insert At End
+  * Delete From Beginning
+  * Delete From End
