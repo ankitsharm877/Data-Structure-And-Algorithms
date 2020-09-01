@@ -15,6 +15,12 @@ public class Test {
 		CLLNode nodeIE = InsertAtEnd.insert(nodeIB,6);
 		PrintAllData.print(nodeIE);
 		
+		CLLNode nodeDB = DeleteFromBeginning.delete(nodeIE);
+		PrintAllData.print(nodeDB);
+		
+		CLLNode nodeDE = DeleteFromEnd.delete(nodeDB);
+		PrintAllData.print(nodeDE);
+		
 		
 
 	}
