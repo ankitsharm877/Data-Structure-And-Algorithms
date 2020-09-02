@@ -1,0 +1,34 @@
+A stack is an ordered list in which insertion and deletion are done at one end, called top. The last element 
+inserted is the first one to be deleted. Hence, it is called the Last in First out(LIFO) or First in Last out(FILO) list.
+
+Stack ADT:
+	The	following operations make a	stack an ADT. For simplicity, assume the data is an	integer	type.
+	
+Main stack operations
+• Push (int	data):	Inserts	data onto stack.
+• int Pop(): Removes and returns the last inserted element from the stack.
+
+Auxiliary stack	operations
+• int Top():	Returns	the	last inserted element without removing it. 
+• int Size():	Returns	the	number of elements stored in the stack. 
+• int IsEmptyStack():	Indicates whether any elements are stored in the stack or not. 
+• int IsFullStack():	Indicates whether the stack	is full	or not.
+
+
+Applications:
+Following are some of the applications in which	stacks play	an important role.
+
+Direct	applications
+• Balancing	of symbols 
+• Infix-to-postfix conversion 
+• Evaluation of	postfix	expression 
+• Implementing	function calls	(including	recursion) 
+• Finding of spans (finding	spans	in	stock	markets,	refer	to	Problems	section) 
+• Page-visited	history	in	a	Web	browser	[Back	Buttons] 
+• Undo	sequence in	a text editor 
+• Matching	Tags in	HTML and XML
+
+Indirect	applications
+• Auxiliary	data structure for other algorithms	(Example:	Tree	traversal	algorithms) 
+• Component	of other data structures (Example:	Simulating	queues,	refer	Queues chapter)
+
