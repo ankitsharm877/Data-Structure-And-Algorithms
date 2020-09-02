@@ -48,5 +48,5 @@ This project contains algorithms related to data structure and some computationa
   * IsFullStack
   * Push
   * Pop
-  * PrintAllData
+  * Print all data
   
