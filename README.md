@@ -40,3 +40,13 @@ This project contains algorithms related to data structure and some computationa
   * Insert At End
   * Delete From Beginning
   * Delete From End
+ 
+ ## 6. Stack
+  * Create Stack
+  * Delete Stack
+  * IsEmptyStack
+  * IsFullStack
+  * Push
+  * Pop
+  * PrintAllData
+  
